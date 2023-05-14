@@ -149,12 +149,10 @@ img {
 .header-logo {
   margin-right: 76px;
 }
-.relative {
-  position: relative;
-}
 
 .header-nav-link {
   color: var(--color-navy-blue);
+  position: relative;
   font-family: var(--primary-font), sans-serif;
   font-weight: 500;
   font-size: 16px;
