@@ -716,6 +716,7 @@ ul.icon-card-footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color var(--anim-duration);
 }
 .icon-team-background:hover,
 .icon-team-background:focus {
