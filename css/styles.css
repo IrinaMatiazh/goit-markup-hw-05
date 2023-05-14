@@ -408,7 +408,7 @@ ul.icon-card-footer {
   align-items: center;
   justify-content: center;
 
-  transition: var(--color-white) var(--anim-duration);
+  transition: background-color var(--anim-duration);
 }
 
 .icon-footer-background:hover,
