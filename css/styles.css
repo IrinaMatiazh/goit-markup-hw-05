@@ -164,6 +164,17 @@ img {
   color: var(--color-ocean);
 }
 
+.nav-link.current-page::after {
+    position: relative;
+    bottom: -25px;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: var(--btn-hover-color);
+    border-radius: 2px;
+}
+
 .link {
   text-decoration: none;
   display: block;
