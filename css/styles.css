@@ -282,6 +282,27 @@ a {
   position: absolute;
   width: 1px;
 }
+
+.portfolio-overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px 0;
+    color: var(--color-cloud);
+    background-color: var(--color-iris);
+    transform: translateY(100%);
+    transition: transform var(--anim-duration);
+}
+
+
+.portfolio-link:hover .portfolio-overlay-text,
+.portfolio-link:focus .portfolio-overlay-text {
+    transform: translateY(0);
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
