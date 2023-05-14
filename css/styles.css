@@ -298,7 +298,6 @@ a {
     transition: transform var(--anim-duration);
 }
 
-
 .portfolio-link:hover .portfolio-overlay-text,
 .portfolio-link:focus .portfolio-overlay-text {
     transform: translateY(0);
