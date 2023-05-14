@@ -66,8 +66,8 @@
     </symbol>
   </defs>
    <defs>
-    <symbol id="icon-close" viewBox="0 0 22 32">
-      <path fill="#fcfcfc" d="M.38.108h21.695c.12 0 .217.097.217.217v31.241c0 .12-.097.217-.217.217H.38a.217.217 0 0 1-.217-.217V.325C.163.205.26.108.38.108z" style="fill:var(--color1, #fcfcfc)"/>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/>
     </symbol>
   </defs>
 </svg>
