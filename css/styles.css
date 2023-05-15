@@ -492,7 +492,9 @@ ul.icon-card-footer {
 }
 .modal-close-btn:hover .modal-close-img,
 .modal-close-btn:focus .modal-close-img {
-  fill: #ffffff;
+  color: #ffffff;
+  background-color: #404bbf;
+  border: none;
 }
 .modal-close-img {
   fill: var(--color-navy-blue);
@@ -500,7 +502,7 @@ ul.icon-card-footer {
 }
 
 .modal-close-btn:hover .modal-close-img {
-  fill: var(--color-white);
+  fill: currentColor
 }
 
 /* Index html styles */
