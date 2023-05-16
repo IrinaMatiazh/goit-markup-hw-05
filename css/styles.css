@@ -167,9 +167,9 @@ img {
   color: var(--color-ocean);
 }
 
-.nav-link.current-page::after {
-  position: relative;
-  bottom: -25px;
+.current-page::after {
+  position: absolute;
+  bottom: 0;
   display: block;
   content: "";
   width: 100%;
