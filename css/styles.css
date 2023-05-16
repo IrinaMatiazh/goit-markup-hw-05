@@ -159,7 +159,6 @@ img {
   letter-spacing: 0.02em;
   display: block;
   padding: 24px 0;
-  color: #404bbf;
   color: var(--color-navy-blue);
   transition: color var(--anim-duration);
 }
@@ -489,6 +488,7 @@ ul.icon-card-footer {
   color: #ffffff;
   background-color: #404bbf;
   border: none;
+  fill: #ffffff
 }
 .modal-close-img {
   fill: var(--color-navy-blue);
