@@ -151,7 +151,6 @@ img {
 }
 
 .header-nav-link {
-  color: var(--color-ocean);
   position: relative;
   font-family: var(--primary-font), sans-serif;
   font-weight: 500;
@@ -160,22 +159,12 @@ img {
   letter-spacing: 0.02em;
   display: block;
   padding: 24px 0;
+  color: var(--color-navy-blue);
   transition: color var(--anim-duration);
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
   color: var(--color-ocean);
-}
-
-.header-nav-link:{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  width: 100%;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 
 .nav-link.current-page::after {
