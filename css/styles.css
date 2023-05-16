@@ -159,7 +159,7 @@ img {
   letter-spacing: 0.02em;
   display: block;
   padding: 24px 0;
-  color: var(--color-ocean)
+  color: var(--color-navy-blue);
   transition: color var(--anim-duration);
 }
 .header-nav-link:hover,
