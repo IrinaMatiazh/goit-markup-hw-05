@@ -167,7 +167,7 @@ img {
   color: var(--color-ocean);
 }
 
-.header-nav-link::after{
+.header-nav-link:{
   content: "";
   position: absolute;
   left: 0;
@@ -190,6 +190,7 @@ img {
 }
 
 .link {
+  color:var(--color-slate);
   text-decoration: none;
   display: block;
 }
