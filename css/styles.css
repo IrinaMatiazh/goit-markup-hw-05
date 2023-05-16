@@ -190,7 +190,6 @@ img {
 }
 
 .link {
-  color:var(--color-slate);
   text-decoration: none;
   display: block;
 }
@@ -492,15 +491,13 @@ ul.icon-card-footer {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff
-
+  fill: #ffffff;
 }
 .modal-close-btn:hover .modal-close-img,
 .modal-close-btn:focus .modal-close-img {
   color: #ffffff;
   background-color: #404bbf;
   border: none;
-  
 }
 .modal-close-img {
   fill: var(--color-navy-blue);
@@ -508,7 +505,7 @@ ul.icon-card-footer {
 }
 
 .modal-close-btn:hover .modal-close-img {
-  fill: currentColor
+  fill: currentColor;
 }
 
 /* Index html styles */
